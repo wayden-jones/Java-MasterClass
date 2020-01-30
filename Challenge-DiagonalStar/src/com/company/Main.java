@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        printSquareStar(21);
+        printSquareStar(8);
     }
 
     public static void printSquareStar(int number) {
@@ -14,7 +14,7 @@ public class Main {
         for (int i = 1; i <= number; i++) {
             for (int j = 1; j <= number; j++) {
 
-                if (i == 1 || i == number) {
+                if (i == 1 || i == number) { // top and bottom row
                     System.out.print("*");
                 } else if (j == 1 || j == number) {
                     System.out.print("*");
